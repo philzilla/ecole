@@ -13,6 +13,8 @@ section {
 
 figure {
   grid-column: full;
+  text-align: center;
+
 }
 
 body {
@@ -24,9 +26,6 @@ article > * {
   padding: 2em;
 }
 
-figure {
-  text-align: center;
-}
 
 img {
   max-width: 100%;
