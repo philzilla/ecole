@@ -7,19 +7,30 @@
   </head>
   <body>
 
-    <article>
+<div class="royaume animated fadeInDown"><img src="images/royaume.svg" alt="royaume"></div>
 
-      <section>
-        <p>Sélectionnez : </p>
-        <select name="forma" onchange="location = this.value;">
-          <option value="#">votre école</option>
-         <option value="Notre-Dame-de-Riez/Notre-Dame-de-Riez.html">Notre Dame de Riez</option>
-         <option value="#">La Gaubretière</option>
-         <option value="#">La Bruffière</option>
-         <option value="#">Saint Symphorien</option>
-        </select>
-      </section>
+<h1 class="animated fadeInDown">Sélèctionnez votre royaume :</h1>
+<div class="aoyue-select animated zoomIn">
+    <!-- You can toggle select (disabled) -->
+    <input type="radio" name="option">
+    <i class="toggle icon icon-arrow-down"></i>
+    <i class="toggle icon icon-arrow-up"></i>
+    <span class="placeholder">Cliquez ici...</span>
+    <label class="option">
+        <span class="title animated fadeIn"><a href="Notre-Dame-de-Riez/Notre-Dame-de-Riez.html">Notre Dame de Riez</a></span>
+    </label>
+    <label class="option">
+      <span class="title animated fadeIn">La Gaubretière</span>
+    </label>
+    <label class="option">
+      <span class="title animated fadeIn">La Bruffière</span>
+    </label>
+    <label class="option">
+      <span class="title animated fadeIn">Saint Symphorien</span>
+    </label>
+</div>
+      
 
-    </article>
+      
   </body>
 </html>
